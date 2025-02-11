@@ -11,19 +11,22 @@ public class BINOMIALCOEFFICIENT {
            } return fact;
         
     }
+    public static int BINOMCOEFF(int n , int r) {
+        int factn = calculatefactorial(n);   
+        int factr = calculatefactorial(r);
+        int factnr = calculatefactorial(n-r);
+        int d =factn/(factr*factnr); 
+        return d;     
+    }
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-      
+        System.out.print("Enter n: ");
         int n = sc.nextInt();
-        int factn = calculatefactorial(n);
-        
+        System.out.print("Enter r: ");
         int r = sc.nextInt();
-        int factr = calculatefactorial(r);
-        
-         int factnr = calculatefactorial(n-r);
-         
-         int d =factn/(factr*factnr);   
-         System.out.println("your binomial coefficient is" +d);
+        int d = BINOMCOEFF(n, r);
+        System.out.println("your binomial coefficient is" +d);
         
     }
 }          
