@@ -14,5 +14,6 @@ public class productandreturn {
       int b = sc.nextInt();
     int product = calculateproduct(a , b) ;
      System.out.println("the product is" +product);
+     sc.close();
     }
 }

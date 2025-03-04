@@ -4,7 +4,7 @@ import java.util.*;
 
 public class PRIME {
 
-    public static boolean PRIME(int n) {
+    public static boolean isPrime(int n) {
         if (n == 2) {
             return true;
         }
@@ -22,7 +22,9 @@ public class PRIME {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        System.out.println(PRIME(n));
-    }
+        System.out.println(isPrime(n));
+        sc.close();
+
+    } 
 
 }

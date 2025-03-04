@@ -11,5 +11,7 @@ public class parameters {
     int b = sc.nextInt();
     int sum = calculatesum(a, b); // arguments or actual parameters
     System.out.println("Sum is: " + sum);
+    sc.close();
  }
+
 }

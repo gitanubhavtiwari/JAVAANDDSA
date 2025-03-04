@@ -10,9 +10,13 @@ public class factorial {
     }
     public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
-         int n = sc.nextInt();
-        int fact = calculatefactorial(n);
-        System.out.println("factorial is "+fact);
+         try {
+             int n = sc.nextInt();
+             int fact = calculatefactorial(n);
+             System.out.println("factorial is "+fact);
+         } finally {
+             sc.close();
+         }
     }
 
 }

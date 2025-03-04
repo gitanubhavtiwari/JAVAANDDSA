@@ -27,7 +27,7 @@ public class BINOMIALCOEFFICIENT {
         int r = sc.nextInt();
         int d = BINOMCOEFF(n, r);
         System.out.println("your binomial coefficient is" +d);
-        
+        sc.close();
     }
 }          
          
