@@ -1,4 +1,3 @@
-package JAVAANDDSA.FUNCTIONS;
 
 import java.util.Scanner;
 

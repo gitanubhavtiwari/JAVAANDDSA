@@ -1,5 +1,3 @@
-package JAVAANDDSA.FUNCTIONS;
-
 public class FUNCTIONOVERLOADING {
     public static int sum(int a , int b) {
         return a + b;

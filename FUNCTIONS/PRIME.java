@@ -1,5 +1,3 @@
-package JAVAANDDSA.FUNCTIONS;
-
 import java.util.*;
 
 public class PRIME {

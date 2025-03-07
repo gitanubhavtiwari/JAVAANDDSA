@@ -1,4 +1,3 @@
-package JAVAANDDSA.FUNCTIONS;
 import java.util.Scanner;
 public class AVERAGE {
     public static void main(String[] args) {

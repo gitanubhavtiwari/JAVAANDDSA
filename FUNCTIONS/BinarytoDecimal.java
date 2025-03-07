@@ -1,4 +1,3 @@
-package JAVAANDDSA.FUNCTIONS;
 
 public class BinarytoDecimal {
 

@@ -1,4 +1,3 @@
-package JAVAANDDSA.FUNCTIONS; // Add this at the top
 import java.util.*;
 public class parameters {
     public static int calculatesum(int a, int b) { //parameters or formal parameters

@@ -1,4 +1,3 @@
-package JAVAANDDSA.FUNCTIONS;
 import java.util.*;
 public class factorial {
     public static int calculatefactorial(int n) {  
