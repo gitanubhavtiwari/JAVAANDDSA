@@ -10,3 +10,8 @@ public class square {
         }
     }
 }
+// output
+// * * * * 
+// * * * * 
+// * * * * 
+// * * * * 
